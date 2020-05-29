@@ -10,13 +10,13 @@ describe('index.js', function() {
     });
   });
   describe('random', function() {
-    it("is generates a random integer greater than 0", function() {
+    it("it generates a random integer greater than 0", function() {
       expect(random).to.be.a('number')
       expect(random).to.not.eq(0)
     });
   });
   describe('mod', function() {
-    it("is generates a remainder that is equal to 4", function() {
+    it("it generates a remainder that is equal to 4", function() {
       expect(mod).to.eq(4)
     });
   });
