@@ -13,6 +13,7 @@ describe('index.js', function() {
     it("is generates a random integer greater than 0", function() {
       expect(random).to.be.a('number')
       expect(random).to.not.eq(0)
+      expect(random).to.not.eq(1)
     });
   });
   describe('mod', function() {
